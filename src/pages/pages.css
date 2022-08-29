@@ -1,0 +1,54 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.wrapper{
+    margin: 4rem 0rem;
+}
+.card{
+    min-height: 15rem;
+    border-radius:2rem;
+    overflow: hidden;
+    position: relative;
+}
+.card img{
+    border-radius: 2rem;
+    position: absolute;
+    left: 0;
+    width: 100%;
+ 
+}
+.card h4{
+    text-align: center;
+    padding: 1rem;
+}
+.details{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    display: flex;
+}
+
+.details h2{
+    margin-bottom: 2rem;
+}
+.details li{
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+.details:active{
+    background: linear-gradient(to right, #f27121, #e94057);
+    background: white;
+}
+.button{
+    padding: 1rem 2rem;
+    color: #313131;
+    background: white;
+    border: 2px solid black;
+    margin-right: 2rem;
+    font-weight: 600;
+}
+.info{
+    margin-left: 10rem;
+}
